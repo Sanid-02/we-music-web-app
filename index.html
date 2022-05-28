@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- <script src="https://use.fontawesome.com/c0f492105b.js"></script> -->
-
-    <!-- jQuery library -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
-
-    <!-- Latest compiled JavaScript -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>  -->
     <title>Musicler</title>
-    <!-- Latest compiled and minified CSS -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -17,6 +9,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="icon"
+      href="misc\icons8-music-gradient-32.png"
+      type="image/x-icon"
+    />
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
@@ -38,18 +35,18 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav fixed-top navbar-nav">
             <li><a href="#">Overview</a></li>
-            <li><a href="music.html">Music</a></li>
-            <li><a href="#">Player</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="music player\index.html">Player</a></li>
             <li><a href="#">Gift Cards</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="#"
+              <a href="signup.html"
                 ><span class="glyphicon glyphicon-user"></span> Sign Up</a
               >
             </li>
             <li>
-              <a href="#"
+              <a href="login.html"
                 ><span class="glyphicon glyphicon-log-in"></span> Login</a
               >
             </li>
@@ -70,37 +67,93 @@
     </div>
     <div class="main-container">
       <div class="music">
-        <div class="music-q">
-          <img
-            class="music-icon"
-            src="misc\music-svgrepo-com.svg"
-            alt="Music"
-          />
-          <h1 style="margin-top: 2; color: #ffffff">Music</h1>
-        </div>
-      </div>
-      </div>
-      <div class="overview">
-        <div class="description">
-          <img src="misc\enter.webp" alt="Music" />
-        </div>
-        <div class="inner-quote">
-          <h1 style="color: #fff">
-            A world of entertainment. Available wherever you are.
-          </h1>
-          <h1 style="color: #fff;">
-            Music, once admitted to the soul, becomes a sort of spirit, and
-            never dies.
-          </h1>
+        <div class="container">
+          <div class="center">
+            <h2 style="margin-top: 2; color: #ffffff">
+              <img
+                class="music-icon"
+                src="misc\music-svgrepo-com.svg"
+                alt="Music"
+              />Music
+            </h2>
+          </div>
+
+          <div class="center">
+            <h2
+              style="
+                margin-top: 2;
+                color: #ffffff;
+                justify-content: center;
+                padding-top: 4px;
+                padding-bottom: 8px;
+              "
+            >
+              45 million songs
+            </h2>
+          </div>
+          <div class="center">
+            <p style="margin-top: 2; color: #ffffff">
+              Stream over 45 million songs, ad-free. Or download albums and
+              tracks to listen to offline. All the music in your personal
+              Musicler library — no matter where it came from — lives right
+              alongside the Musicler catalog. Start your free three-month trial
+              with no commitment, and cancel anytime.
+            </p>
+            <div class="container">
+              <a href="#" class="btn btn-primary mb">Start Your Trial Now</a>
+            </div>
+            <img src="misc\mockup1.png" height="350 vh" />
+          </div>
         </div>
       </div>
     </div>
-    <div class="cards"></div>
+    <div class="overview">
+      <div class="description">
+        <img src="misc\enter.webp" alt="Music" />
+      </div>
+      <div class="inner-quote">
+        <h1 style="color: #fff">
+          A world of entertainment. Available wherever you are.
+        </h1>
+        <h1 style="color: #fff">
+          Music, once admitted to the soul, becomes a sort of spirit, and never
+          dies.
+        </h1>
+      </div>
+    </div>
+    <div class="cards">
+      <div class="gift-cards">
+        <div>
+          <img src="misc\cards.png" height="500vh" />
+        </div>
+        <div>
+          <div class="center">
+            <h1 style="margin-top: 8; color: #ffffff">Gift Cards</h1>
+          </div>
+          <p
+            style="
+              margin-top: 2;
+              color: #ffffff;
+              font-size: 40px;
+              font-family: Brush Script MT;
+              padding-top: 60px;
+            "
+          >
+            A gift of happiness…. a gift of love… a gift of peace… is here for
+            you. Hope this little effort of mine turn this day into a special
+            one for you…!!
+          </p>
+        </div>
+        div class="container">
+              <a href="#" class="btn btn-primary mb">Start Your Trial Now</a>
+            </div>
+      </div>
+    </div>
 
     <footer>
       <div class="container">
         <center>
-          <p>Copyright &copy; Music App. All Rights Reserved</p>
+          <p>Copyright &copy; Musicler 2022. All Rights Reserved</p>
         </center>
       </div>
     </footer>
