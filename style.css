@@ -19,6 +19,15 @@ nav {
   height: 2vh;
 }
 
+.main-title {
+  font-size: 22px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, darkblue, darkorchid);
+  font-style: underline;
+  --webkit-background-clip: text;
+  --webkit-text-fill-color: transparent;
+}
+
 a {
   text-decoration: none;
   background-size: 200% 100%;
@@ -265,4 +274,10 @@ button:hover {
 .center {
   text-align: center;
   justify-content: center;
+}
+
+.containerr {
+  padding-top: 20px;
+  width: 25%;
+  margin: auto;
 }
