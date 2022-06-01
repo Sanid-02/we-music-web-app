@@ -39,7 +39,7 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav fixed-top navbar-nav">
             <li><a href="">Overview</a></li>
-            <li><a href="index.html#music">Music</a></li>
+            <li><a href="index.html#music">About</a></li>
             <li><a href="music player\player.html">Player</a></li>
             <li><a href="index.html#gift">Gift Cards</a></li>
           </ul>
@@ -63,7 +63,7 @@
         <img src="misc\s4.gif" alt="Music" loop="true" />
       </div>
       <div class="inner-quote">
-        <h1 style="color: #fff">
+        <h1 style="color: #fff" class="intro">
           Music is the language of the spirit. It opens the secret of life
           bringing peace, abolishing strife.
         </h1>
@@ -73,12 +73,15 @@
       <div class="music" id="music">
         <div class="container">
           <div class="center">
-            <h2 style="margin-top: 2; color: #ffffff">
-              <img
-                class="music-icon"
-                src="misc\music-svgrepo-com.svg"
-                alt="Music"
-              />Music
+            <h2
+              style="
+                margin-top: 2;
+                color: #ffffff;
+                font-size: 5rem;
+                text-decoration: underline;
+              "
+            >
+              About
             </h2>
           </div>
 
@@ -92,20 +95,28 @@
                 padding-bottom: 8px;
               "
             >
+              <img
+                class="music-icon"
+                src="misc\music-svgrepo-com.svg"
+                alt="Music"
+              />
               Millions of songs
             </h2>
           </div>
           <div class="center">
-            <p style="margin-top: 2; color: #ffffff">
+            <p class="about-p">
               Streaming melodious songs, ad-free. All the music in your personal
-              Musicler library — no matter where it came from — lives right
-              alongside the Musicler catalog. Start your free three-month trial
-              with no commitment, and cancel anytime.
+              Musicler library — discover new music and podcasts — lives right
+              alongside the Musicler catalog.
+              <br /><br />Start your free three-month trial with no commitment,
+              and cancel anytime.
             </p>
             <div class="container">
-              <a href="#" class="btn btn-primary mb">Start Your Trial Now</a>
+              <a href="signup.html" class="btn btn-primary mb"
+                >Start Your Trial Now</a
+              >
             </div>
-            <img src="misc\mockup1.png" height="350 vh" />
+            <img class="phone" src="misc\mockup1.png" />
           </div>
         </div>
       </div>
@@ -115,29 +126,28 @@
         <img src="misc\enter.webp" alt="Music" />
       </div>
       <div class="inner-quote">
-        <h1 style="color: #fff">
-          A world of entertainment, available wherever you are.
-        </h1>
-        <h1 style="color: #fff">
-          Music, once admitted to the soul, becomes a sort of spirit, and never
-          dies.
+        <h1 style="color: #fff; font-size: 2.5vw">
+          A world of entertainment, available wherever you are. Music, once
+          admitted to the soul, becomes a sort of spirit, and never dies.
         </h1>
       </div>
     </div>
     <div class="cards" id="gift">
       <div class="gift-cards">
         <div>
-          <img src="misc\cards.png" height="500vh" />
+          <img class="gift-image" src="misc\cards.png" />
         </div>
         <div>
           <div class="center">
-            <h1 style="margin-top: 8; color: #ffffff">Gift Cards</h1>
+            <h1 style="margin-top: 8; color: #ffffff; font-size: 2.5vw">
+              Gift Cards
+            </h1>
           </div>
           <p
             style="
               margin-top: 2;
               color: #ffffff;
-              font-size: 40px;
+              font-size: 3vw;
               font-family: Brush Script MT;
               padding-top: 60px;
             "
@@ -147,7 +157,7 @@
             one for you…!!
           </p>
           <div class="containerr">
-            <a href="signup.html" class="btn btn-primary mb">Buy Now!</a>
+            <a href="login.html" class="btn btn-primary mb">Buy Now!</a>
           </div>
         </div>
       </div>
@@ -160,6 +170,5 @@
         </center>
       </div>
     </footer>
-    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

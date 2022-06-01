@@ -12,6 +12,8 @@ const wrapper = document.querySelector(".wrapper"),
   moreMusicBtn = wrapper.querySelector("#more-music"),
   closemoreMusic = musicList.querySelector("#close");
 
+const rangeInputs = document.querySelectorAll('input[type="range"]');
+
 let musicIndex = Math.floor(Math.random() * allMusic.length + 1);
 isMusicPaused = true;
 
@@ -25,6 +27,7 @@ function loadMusic(indexNumb) {
   musicArtist.innerText = allMusic[indexNumb - 1].artist;
   musicImg.src = `images/${allMusic[indexNumb - 1].src}.jpg`;
   mainAudio.src = `songs/${allMusic[indexNumb - 1].src}.mp3`;
+  mainAudio.volume = 0.2;
 }
 
 //playing music function
@@ -116,7 +119,6 @@ mainAudio.addEventListener("timeupdate", (e) => {
 progressArea.addEventListener("click", (e) => {
   let progressWidth = progressArea.clientWidth; //getting width of progress bar
   let clickedOffsetX = e.offsetX; //getting offset x value
-  console.log(clickedOffsetX);
   let songDuration = mainAudio.duration; //getting song total duration
 
   mainAudio.currentTime = (clickedOffsetX / progressWidth) * songDuration;
@@ -241,8 +243,6 @@ function clicked(element) {
   playMusic();
   playingSong();
 }
-
-const rangeInputs = document.querySelectorAll('input[type="range"]');
 
 function handleInputChange(e) {
   let target = e.target;

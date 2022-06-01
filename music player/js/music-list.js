@@ -3,11 +3,9 @@
 //   {
 //     name: "Here is the music name",
 //     artist: "Here is the artist name",
-//     img: "image name here - remember img must be in .jpg formate and it's inside the images folder of this project folder",
-//     src: "music name here - remember img must be in .mp3 formate and it's inside the songs folder of this project folder"
+//     img: "image name here - remember img must be in .jpg",
+//     src: "music name here - remember song must be in .mp3"
 //   }
-
-//paste it inside the array as more as you want music then you don't need to do any other thing
 
 let allMusic = [
   {
@@ -48,15 +46,32 @@ let allMusic = [
   },
   {
     name: "Vande",
-    artist: "Jordan Schor",
+    artist: "AR Rahman",
     img: "vande",
     src: "vande",
   },
-  // like this paste it and remember to give comma after ending of this bracket }
-  // {
-  //   name: "Here is the music name",
-  //   artist: "Here is the artist name",
-  //   img: "image name here - remember img must be in .jpg formate and it's inside the images folder of this project folder",
-  //   src: "music name here - remember img must be in .mp3 formate and it's inside the songs folder of this project folder"
-  // }
+  {
+    name: "On My Way",
+    artist: "Alan Walker",
+    img: "music-8",
+    src: "music-8",
+  },
+  {
+    name: "Faded",
+    artist: "Alan Walker",
+    img: "music-9",
+    src: "music-9",
+  },
+  {
+    name: "Cartoon - On & On",
+    artist: "Daniel Levi",
+    img: "muisc-10",
+    src: "music-10",
+  },
+  {
+    name: "Warriyo",
+    artist: "Mortals",
+    img: "music-11",
+    src: "music-11",
+  },
 ];

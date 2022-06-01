@@ -105,7 +105,6 @@ body {
   border-radius: 50%;
   top: 50%;
   right: -5px;
-  /* z-index: 2; */
   opacity: 0;
   pointer-events: none;
   transform: translateY(-50%);
@@ -175,22 +174,9 @@ body {
   position: absolute;
 }
 
-/* .icon {
-  top: 200px;
-} */
-
-
-.vol{
+.vol {
   text-align: center;
 }
-
-/* .vol {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  flex-direction: flex-end;
-  left: 50%;
-}  */
 
 .vol input {
   cursor: grab;
